@@ -1,8 +1,9 @@
 import streamlit as st
-from snowflake.snowpark.context import get_active_session
 import pandas as pd
 import matplotlib.pyplot as plt
-from snowflake.cortex import complete
+
+# This does not work outside Snowflake, so you have to use SQL instead.
+# from snowflake.cortex import complete
 
 # Initialize the Streamlit app
 st.title("Avalanche Streamlit App")
@@ -66,3 +67,4 @@ if user_question:
     # Use SQL instead:
     response = session.sql(f"SELECT SNOWFLAKE.CORTEX.COMPLETE('claude-3-5-sonnet', '{user_question}');").collect()[0][0]
     st.write(response)
+
