@@ -64,7 +64,8 @@ with tab1:
 with tab2:
     st.title("RAG App")
 
-    session = get_active_session()
+    # Get data from Snowflake. This is instead of using get_active_session 
+    # session = get_active_session()
 
     # Input box for user prompt
     prompt = st.text_input("Enter your query:", value="Any goggles review?")
@@ -94,3 +95,4 @@ with tab2:
                 st.write(f"**{row['CHUNK']}**")
                 st.caption(row['file_name'])
                 st.write('---')
+
