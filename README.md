@@ -146,7 +146,7 @@ WAREHOUSE = YOUR_WAREHOUSE;
 ## 🌟 Next Steps
 
 1. **🎮 Try the Demo**: [Explore the live application](https://genai-shipping-customer-app.streamlit.app/)
-2. **📚 Take the Course**: [Learn GenAI prototyping fundamentals](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/)
+2. **📚 Explore the Course**: [Learn GenAI prototyping fundamentals](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/)
 3. **🔧 Clone & Customize**: Adapt this solution for your specific delivery data
 4. **🚀 Deploy & Scale**: Roll out to your team and gather feedback
 
